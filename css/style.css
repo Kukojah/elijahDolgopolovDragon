@@ -86,3 +86,28 @@ h1 {
     font-family: 'Balsamiq Sans';
     font-weight: 600;
 }
+
+.about-medragon{
+    background-color: gold;
+    border: 2px grey solid;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 0;
+}
+
+.me{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.dragonme{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
