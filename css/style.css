@@ -16,53 +16,73 @@ h1 {
 }
 
 
-.section_dragon_heder{
+.section_dragon_heder {
     background-color: green;
     padding-left: 21px;
     padding-right: 21px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
-.menu{
+.menu {
     color: burlywood;
     background-color: green;
     padding: 10px
 }
 
-.dragon_heder_logo{
+.dragon_heder_logo {
     display: flex;
     align-items: center
 }
 
 
-.logo_text{
+.logo_text {
     max-width: 137px;
     color: white;
     padding-left: 21px;
 }
 
-.menu_items{
+.menu_items {
     color: white;
     list-style-type: none;
     padding: 0;
 }
 
-.dragon_li{
+.dragon_li {
     display: inline;
     padding-left: 21px;
 }
 
-.dragon_li:hover{
+.dragon_li:hover {
     color: gold
 }
 
-.dragon_banner{
-height: 1080px;
-background-image: url('../images/banner.png');
-display: flex;
-align-items: center;
-justify-content: space-around;
+.dragon_banner {
+    height: 1080px;
+    background-image: url('../images/banner.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dragon_section-programming {
+    background-color: green;
+    display: flex;
+    padding: 30px 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dragon_programming-img {
+    max-width: 40%;
+}
+
+.dragon_programming-text {
+    max-width: 60%;
+    color: white;
+    font-size: 21px;
+    font-family: 'Balsamiq Sans';
+    font-weight: 600;
 }
