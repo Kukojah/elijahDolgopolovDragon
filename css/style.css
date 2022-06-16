@@ -1,0 +1,68 @@
+h1 {
+    font-size: 80px;
+    color: purple;
+    font-family: 'Balsamiq Sans';
+    background-color: white;
+    border-radius: 10px
+}
+
+.dragon_class {
+    color: red;
+    font-size: 30px;
+    background-color: green;
+    padding: 10;
+    border: 5 solid;
+    display: flex
+}
+
+
+.section_dragon_heder{
+    background-color: green;
+    padding-left: 21px;
+    padding-right: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.menu{
+    color: burlywood;
+    background-color: green;
+    padding: 10px
+}
+
+.dragon_heder_logo{
+    display: flex;
+    align-items: center
+}
+
+
+.logo_text{
+    max-width: 137px;
+    color: white;
+    padding-left: 21px;
+}
+
+.menu_items{
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+.dragon_li{
+    display: inline;
+    padding-left: 21px;
+}
+
+.dragon_li:hover{
+    color: gold
+}
+
+.dragon_banner{
+height: 1080px;
+background-image: url('../images/banner.png');
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
